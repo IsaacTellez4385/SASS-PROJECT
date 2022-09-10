@@ -1,0 +1,176 @@
+.resumeContent {
+  width: 100%;
+  height: 800px;
+  display: flex;
+  flex-direction: row;
+}
+.resumeContent .content1 {
+  width: 35%;
+  height: 800px;
+  background-color: #4C4643;
+}
+.resumeContent .content1 .personalProfile {
+  width: 390px;
+  height: 600px;
+  margin: 10%;
+  padding: 20px;
+}
+.resumeContent .content1 .personalProfile .firstInformation {
+  width: 100%;
+  height: 40%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.resumeContent .content1 .personalProfile .firstInformation h1 {
+  width: 50px;
+  letter-spacing: 10px;
+  margin-bottom: 10px;
+}
+.resumeContent .content1 .personalProfile .firstInformation p {
+  margin-top: 20px;
+  width: 400px;
+}
+.resumeContent .content1 .personalProfile .firstInformation .devider {
+  width: 90px;
+  height: 5px;
+  background-color: black;
+}
+.resumeContent .content1 .personalProfile .secondInformation {
+  width: 100%;
+  height: 30%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.resumeContent .content1 .personalProfile .secondInformation h1 {
+  letter-spacing: 10px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.resumeContent .content1 .personalProfile .secondInformation i {
+  margin-top: 10px;
+}
+.resumeContent .content1 .personalProfile .secondInformation p {
+  margin-left: 25px;
+  margin-top: -17px;
+}
+.resumeContent .content1 .personalProfile .thirdInformation {
+  width: 100%;
+  height: 33.33%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.resumeContent .content1 .personalProfile .thirdInformation h1 {
+  letter-spacing: 10px;
+  margin-bottom: 10px;
+}
+.resumeContent .content1 .personalProfile .thirdInformation .devider {
+  width: 90px;
+  height: 5px;
+  background-color: black;
+  margin-bottom: 10px;
+}
+.resumeContent .content2 {
+  width: 65%;
+  height: 800px;
+  background-color: #888787;
+}
+.resumeContent .content2 .content2Body {
+  width: 790px;
+  height: 630px;
+  margin: 70px;
+}
+.resumeContent .content2 .content2Body .skills {
+  width: 100%;
+  height: 50%;
+  padding-top: 10px;
+}
+.resumeContent .content2 .content2Body .skills h1 {
+  margin-left: 30px;
+  margin-top: 50px;
+  letter-spacing: 20px;
+  text-align: center;
+}
+.resumeContent .content2 .content2Body .skills p {
+  width: 500px;
+  margin-left: 100px;
+  margin-top: 10px;
+}
+.resumeContent .content2 .content2Body .experience {
+  width: 100%;
+  height: 50%;
+}
+.resumeContent .content2 .content2Body .experience h1 {
+  text-align: center;
+  letter-spacing: 10px;
+}
+.resumeContent .content2 .content2Body .experience p {
+  margin-top: 10px;
+  margin-left: 100px;
+}
+.resumeContent .content2 .content2Body .devider, .resumeContent .content2 .content2Body .content1 .personalProfile .secondInformation .devider, .resumeContent .content1 .personalProfile .secondInformation .content2 .content2Body .devider {
+  width: 90px;
+  height: 5px;
+  background-color: black;
+  margin-left: 100px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+* {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.resumeContentContainer {
+  width: 100%;
+  height: 1000px;
+}
+.resumeContentContainer .titleCard {
+  width: 100%;
+  height: 300px;
+  background-image: url(../images/beemer.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.resumeContentContainer .titleCard .darkener {
+  width: 100%;
+  height: 300px;
+  background-color: rgba(0, 0, 0, 0.692);
+  display: flex;
+  flex-direction: row;
+}
+.resumeContentContainer .titleCard .darkener .profilePic {
+  width: 25%;
+  height: 300px;
+}
+.resumeContentContainer .titleCard .darkener .profilePic .circle {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-image: url(../images/80D08E1D-B676-49CE-A998-7D3D05588902.jpeg);
+  background-size: cover;
+  position: relative;
+  top: 50px;
+  left: 100px;
+  border: 3px solid #DECBB7;
+}
+.resumeContentContainer .titleCard .darkener .profileName {
+  width: 75%;
+  height: 300px;
+}
+.resumeContentContainer .titleCard .darkener .profileName .textName {
+  height: 150px;
+  width: 500px;
+  position: relative;
+  left: 570px;
+  top: 70px;
+  color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.resumeContentContainer .titleCard .darkener .profileName .textName h1 {
+  font-size: 80px;
+}
+.resumeContentContainer .titleCard .darkener .profileName .textName p {
+  font-size: 30px;
+  font-family: "Roboto", sans-serif;
+}
+
+/*# sourceMappingURL=style.css.map */
